@@ -8,11 +8,11 @@ const puppeteer = require('puppeteer');
   
   await page.waitFor(5000);
   setInterval(async () => {
-    "test".split("").forEach(async (char) => {
+    "Tran Hoang Anh lock R3-08 (R3-03) tang thap".split("").forEach(async (char) => {
       await page.keyboard.press(char);
     })
     await page.keyboard.press('Enter');
     console.log("sent");
-  }, 1000);
+  }, 200);
   // await browser.close();
 })();
