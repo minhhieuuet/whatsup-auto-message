@@ -10,7 +10,7 @@ const puppeteer = require("puppeteer");
   const waitTime = 5000; //Thoi gian doi sau khi login (ms)
   const delay = 200; //Thoi gian delay (ms)
 
-  await page.waitFor(5000);
+  await page.waitFor(waitTime);
 
   let interval;
   interval = setInterval(async () => {

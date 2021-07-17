@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "Whatsup auto message",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhhieuuet/whatsup-auto-message.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhhieuuet/whatsup-auto-message/issues"
+  },
+  "homepage": "https://github.com/minhhieuuet/whatsup-auto-message#readme"
+}
